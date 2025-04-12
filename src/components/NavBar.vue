@@ -16,8 +16,8 @@ const logo = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzUiIGhlaWdodD0iMjAiIGZp
             <div class="flex h-20 items-center">
                 <!-- Logo -->
                 <div class="flex h-full items-center mr-auto">
-                    <a class="mr-8">
-                        <img class="h-6 md:h-8 w-auto" :src="logo" alt="Vue Jobs" />
+                    <a href="/" class="mr-8">
+                        <img class="h-6 md:h-8 w-auto cursor-pointer" :src="logo" alt="Vue Jobs" />
                     </a>
                     <div class="hidden md:flex items-center space-x-6 h-full">
                         <a href="#"
