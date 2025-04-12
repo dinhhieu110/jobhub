@@ -21,7 +21,7 @@ import Card from './Card.vue';
                     <p class="mt-2 mb-4">
                         List your job to find the perfect employee for the position
                     </p>
-                    <a href="add-job.html" class=" bg-blue-500 text-white rounded-lg px-4 py-3 hover:bg-green-600">
+                    <a href="add-job.html" class=" bg-blue-500 text-white rounded-lg px-4 py-3 hover:bg-blue-600">
                         Add Job
                     </a>
                 </Card>

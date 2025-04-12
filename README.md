@@ -42,3 +42,8 @@ This project is built using the following technologies:
 ## 👨‍💻 Author
 
 Tran Dinh Hieu (Wilson Tran) – A passionate software developer dedicated to crafting full-stack web applications that solve real-world problems.
+
+## 🚀 Preview
+
+HomePage
+![Alt text](../jobhub/src/assets/homepage.png)
