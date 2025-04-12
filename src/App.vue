@@ -1,3 +1,6 @@
+<script setup>
+import { NavBar } from './components';
+</script>
 <template>
-  <h1>JobHub</h1>
+  <NavBar />
 </template>

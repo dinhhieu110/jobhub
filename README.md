@@ -1,11 +1,11 @@
-💼 JobConnect System
+💼 JobHub
 
-##📌 About the Project
-JobConnect is a modern web application that streamlines the job-seeking and recruitment process.
+📌 About the Project
+JobHub is a modern web application that streamlines the job-seeking and recruitment process.
 It allows job seekers to search and apply for jobs online using their CVs, while employers can post and manage job listings efficiently.
 The platform supports role-based access, application tracking, and intuitive search and filtering tools to connect the right candidates with the right jobs.
 
-##🚀 Tech Stack
+🚀 Tech Stack
 This project is built using the following technologies:
 
 Frontend: Vue.js with TailwindCSS
@@ -14,7 +14,7 @@ Database:
 Authentication:
 State Management: Vuex
 
-##🔧 Features
+🔧 Features
 ✅ User authentication and role-based access (Job Seekers & Employers)
 ✅ Post, edit, and delete job listings (Employer role)
 ✅ Browse and search jobs by title, location, company, or category
@@ -24,7 +24,7 @@ State Management: Vuex
 ✅ Responsive, clean UI with TailwindCSS
 ✅ Secure backend API with JWT
 
-##📦 Installation & Setup
+📦 Installation & Setup
 🔹 Frontend
 
 Clone the repository

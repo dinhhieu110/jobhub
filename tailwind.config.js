@@ -10,6 +10,9 @@ module.exports = {
       gridTemplateColumns: {
         "70/30": "70% 28%",
       },
+      colors: {
+        primary: "#5f6fff",
+      },
     },
   },
   variants: {
