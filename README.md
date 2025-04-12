@@ -46,4 +46,5 @@ Tran Dinh Hieu (Wilson Tran) – A passionate software developer dedicated to cr
 ## 🚀 Preview
 
 HomePage
-![Alt text](../jobhub/src/assets/homepage.png)
+![homepage](https://github.com/user-attachments/assets/aa8724a2-5cc7-4bca-9828-f5a00710fc12)
+
