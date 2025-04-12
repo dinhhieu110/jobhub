@@ -1,7 +1,8 @@
 <script setup>
-import { Hero, NavBar } from './components';
+import { DoubleCards, Hero, NavBar } from './components';
 </script>
 <template>
   <NavBar />
   <Hero />
+  <DoubleCards />
 </template>
