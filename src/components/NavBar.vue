@@ -39,6 +39,7 @@ const logo = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzUiIGhlaWdodD0iMjAiIGZp
                         Job</a>
                     <button class="md:hidden">
                         <img class="h-10 w-auto" :src="menu" alt="menu_icon">
+                        <!-- Impement overlay page for menu later -->
                     </button>
                 </div>
             </div>

@@ -11,7 +11,7 @@ module.exports = {
         "70/30": "70% 28%",
       },
       colors: {
-        primary: "#5f6fff",
+        primary: "#003a9b",
       },
     },
   },

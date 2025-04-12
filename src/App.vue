@@ -1,6 +1,7 @@
 <script setup>
-import { NavBar } from './components';
+import { Hero, NavBar } from './components';
 </script>
 <template>
   <NavBar />
+  <Hero />
 </template>

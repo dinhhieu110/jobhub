@@ -1,3 +1,3 @@
 import NavBar from "./NavBar.vue";
-
-export { NavBar };
+import Hero from "./Hero.vue";
+export { NavBar, Hero };
