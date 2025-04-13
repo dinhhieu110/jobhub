@@ -20,11 +20,12 @@ const isActiveLink = () => true;
                         <img class="h-10 mt-3 md:h-10 w-auto cursor-pointer" :src="logo" alt="Vue Jobs" />
                     </a>
                     <div class="hidden md:flex items-center space-x-6 h-full">
-                        <a href="#"
+                        <a href="/"
                             class="hover:border-b-primary hover:border-b-2 h-full flex items-center pt-4">Home</a>
-                        <a href="#"
+                        <a href="/jobs"
                             class="hover:border-b-primary hover:border-b-2 h-full flex items-center pt-4">Jobs</a>
-                        <a href="#" class="hover:border-b-primary hover:border-b-2 h-full flex items-center pt-4">Add
+                        <a href="/jobs/add"
+                            class="hover:border-b-primary hover:border-b-2 h-full flex items-center pt-4">Add
                             Job</a>
                     </div>
                 </div>
