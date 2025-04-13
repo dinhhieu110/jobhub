@@ -1,9 +1,11 @@
 <script setup>
-import { DoubleCards, Hero, JobList, NavBar } from './components';
+import { NavBar } from './components';
+import { HomePage } from './pages';
+import { RouterView } from 'vue-router';
+
 </script>
 <template>
   <NavBar />
-  <Hero />
-  <DoubleCards />
-  <JobList :limit="3" :showButton="true" />
+  <!-- Same as outlet -->
+  <RouterView />
 </template>

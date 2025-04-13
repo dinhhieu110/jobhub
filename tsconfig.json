@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext", // Enables support for `import.meta`
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM"],
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": ".", // Required for `paths` to work correctly
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["node","vite/client"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
