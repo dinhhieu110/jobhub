@@ -1,4 +1,10 @@
-import { HomePage, JobDetailsPage, JobsPage, NotFoundPage } from "@/pages";
+import {
+  AddJobPage,
+  HomePage,
+  JobDetailsPage,
+  JobsPage,
+  NotFoundPage,
+} from "@/pages";
 
 const routes = [
   {
@@ -15,6 +21,11 @@ const routes = [
     path: "/jobs/:id",
     name: "job",
     component: JobDetailsPage,
+  },
+  {
+    path: "/jobs/add",
+    name: "add-job",
+    component: AddJobPage,
   },
   {
     path: "/:catchAll(.*)",
