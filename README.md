@@ -11,10 +11,8 @@ The platform supports role-based access, application tracking, and intuitive sea
 This project is built using the following technologies:
 
 **Frontend:** Vue.js with TailwindCSS  
-**Backend:**  
-**Database:**  
-**Authentication:**  
-**State Management:** Vuex
+**Backend:** Json-Server for api simulations
+**Database:** Json-Server for api simulations
 
 ## 🔧 Features
 
