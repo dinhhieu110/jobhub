@@ -4,4 +4,5 @@ import DoubleCards from "./DoubleCards.vue";
 import Card from "./Card.vue";
 import JobList from "./JobList.vue";
 import Job from "./Job.vue";
-export { NavBar, Hero, DoubleCards, Card, JobList, Job };
+import BackButton from "./BackButton.vue";
+export { NavBar, Hero, DoubleCards, Card, JobList, Job, BackButton };

@@ -1,4 +1,5 @@
 <script setup>
+import { BackButton } from '@/components';
 import axios from 'axios';
 import { onMounted, ref } from 'vue';
 import { RouterLink, useRoute } from 'vue-router';
@@ -12,7 +13,7 @@ const jobId = route.params.id;
 
 onMounted(async () => {
     try {
-        const res = await axios.get(`http://localhost:5000/jobs/${jobId}`);
+        const res = await axios.get(`/api/jobs/${jobId}`);
         if (res.data) job.value = res.data;
 
     } catch (error) {
@@ -26,6 +27,7 @@ onMounted(async () => {
 </script>
 
 <template>
+    <BackButton />
     <section v-if="!isLoading" class="bg-blue-50">
         <div class="container m-auto py-10">
             <div class="grid grid-cols-1 lg:grid-cols-70/30 w-full gap-6">
