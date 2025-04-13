@@ -1,3 +1,4 @@
 import HomePage from "./HomePage.vue";
-
-export { HomePage };
+import JobsPage from "./JobsPage.vue";
+import NotFoundPage from "./NotFoundPage.vue";
+export { HomePage, JobsPage, NotFoundPage };

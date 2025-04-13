@@ -1,5 +1,5 @@
-import { HomePage } from "@/pages";
-import JobsPage from "@/pages/JobsPage.vue";
+import { HomePage, JobsPage, NotFoundPage } from "@/pages";
+import path from "path";
 
 const routes = [
   {
@@ -11,6 +11,11 @@ const routes = [
     path: "/jobs",
     name: "jobs",
     component: JobsPage,
+  },
+  {
+    path: "/:catchAll(.*)",
+    name: "not-found",
+    component: NotFoundPage,
   },
 ];
 
