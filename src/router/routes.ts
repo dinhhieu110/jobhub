@@ -1,5 +1,6 @@
 import {
   AddJobPage,
+  EditJobPage,
   HomePage,
   JobDetailsPage,
   JobsPage,
@@ -26,6 +27,11 @@ const routes = [
     path: "/jobs/add",
     name: "add-job",
     component: AddJobPage,
+  },
+  {
+    path: "/jobs/edit/:id",
+    name: "edit-job",
+    component: EditJobPage,
   },
   {
     path: "/:catchAll(.*)",
