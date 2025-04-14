@@ -15,16 +15,9 @@ This project is built using the following technologies:
 **Database:** Json-Server for api simulations
 
 ## 🔧 Features
-
-- ✅ User authentication and role-based access (Job Seekers & Employers)
-- ✅ Post, edit, and delete job listings (Employer role)
-- ✅ Browse and search jobs by title, location, company, or category
-- ✅ Apply to jobs with uploaded CVs (PDF or DOCX)
-- ✅ Employer dashboard to manage applications and view applicant details
-- ✅ Job seeker dashboard to manage applied jobs and CVs
 - ✅ Responsive, clean UI with TailwindCSS
-- ✅ Secure backend API with JWT
-
+- ✅ Post, edit, and delete job listings
+- ✅ Browse and search jobs by title, location, company, or category
 ## 📦 Installation & Setup
 
 ### 🔹 Frontend
